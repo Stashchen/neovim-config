@@ -4,4 +4,8 @@ require('plugins')
 require('lsp')
 
 require('baseConfig')
-require('keybindings')
+require('baseKeybindings')
+
+require('pluginsSettings.treesitter')
+require('pluginsSettings.nerdTree')
+require('pluginsSettings.tagbar')

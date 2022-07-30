@@ -11,7 +11,7 @@ vim.opt.softtabstop = 2
 
 -- Colorschema
 vim.o.background = "dark" 
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme tokyonight]])
 
 -- Add number and column
 vim.opt.relativenumber = true
