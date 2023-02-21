@@ -12,9 +12,9 @@ return require('packer').startup(function(use)
   use('folke/tokyonight.nvim')
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('theprimeagen/harpoon')
-  use('mbbill/undotree')
   use('terrortylor/nvim-comment')
   use('jiangmiao/auto-pairs')
+  use('preservim/nerdtree')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
       branch = 'v1.x',
@@ -38,4 +38,3 @@ return require('packer').startup(function(use)
 	  }
   }
 end)
-
